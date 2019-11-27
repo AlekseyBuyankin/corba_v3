@@ -1,0 +1,1 @@
+java -classpath . Main -ORBInitialPort 1050 -ORBInitialHost localhost

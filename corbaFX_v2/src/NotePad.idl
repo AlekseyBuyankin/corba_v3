@@ -1,0 +1,17 @@
+module NotePadApp
+{
+  typedef sequence <string> NoteList;
+
+  interface NotePad {
+    boolean addNote(in string a, in long b);
+
+    void addNullNote();
+
+    boolean showNotes();
+
+    boolean deleteNote(in long b);
+    oneway void shutdown();
+
+     NoteList getNotes();
+  };
+};
